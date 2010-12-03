@@ -1,0 +1,38 @@
+Package: hide-region
+Section: tools
+License: GPL-2+
+Depends: emacs (>= 21)
+Status: unmaintained
+     note 2010-12-03 the code hasn't been touched since 2005 ;
+Compat:
+Maintainer:
+Email: Mathias Dahl <mathias.dahl@gmail.com>
+Bugs:
+Vcs-Type: http
+Vcs-Url: http://www.emacswiki.org/emacs/download/hide-region.el
+Vcs-Browser:
+Vcs-User:
+Vcs-Password:
+Homepage:
+Wiki: http://www.emacswiki.org/emacs/HideRegion
+Description: hide or show regions like using kill-ring
+    The function `hide-region-hide' hides the region. You can hide many
+    different regions and they will be "marked" by two configurable
+    strings (so that you know where the hidden text is).
+    .
+    The hidden regions is pushed on a kind of hide-region "ring".
+    .
+    The function `hide-region-unhide' unhides one region, starting
+    with the last one you hid.
+    .
+    The best is to try it out. Test on the following:
+    .
+    Test region 1
+    Test region 2
+    Test region 3
+    .
+    If you are annoyed by the text getting "stuck" inside the hidden
+    regions, call the function `hide-region-setup-keybindings' to setup
+    local keybindings to a couple of functions trying to be smart and
+    guessing if the point is inside a hidden region and if so, move out
+    of it in the correct direction.
