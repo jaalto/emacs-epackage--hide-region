@@ -3,7 +3,6 @@ Section: tools
 License: GPL-2+
 Depends: emacs (>= 21)
 Status: unmaintained
-     note 2010-12-03 the code hasn't been touched since 2005 ;
 Compat:
 Maintainer:
 Email: Mathias Dahl <mathias.dahl@gmail.com>
@@ -36,3 +35,5 @@ Description: hide or show regions like using kill-ring
     local keybindings to a couple of functions trying to be smart and
     guessing if the point is inside a hidden region and if so, move out
     of it in the correct direction.
+    .
+    Note 2010-12-03 the code hasn't been touched since 2005.
