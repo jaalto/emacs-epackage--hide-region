@@ -1,0 +1,1 @@
+(byte-compile-file (locate-library "hide-region.el"))
