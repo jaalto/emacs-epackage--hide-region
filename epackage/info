@@ -14,7 +14,7 @@ Vcs-User:
 Vcs-Password:
 Homepage:
 Wiki: http://www.emacswiki.org/emacs/HideRegion
-Commentary:
+Commentary: hide-region.el
 Description: hide or show regions like using kill-ring
  The function `hide-region-hide' hides the region. You can hide many
  different regions and they will be "marked" by two configurable
