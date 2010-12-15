@@ -4,7 +4,7 @@ License: GPL-2+
 Depends: emacs (>= 21)
 Status: unmaintained
 Compat:
-Maintainer:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
 Email: Mathias Dahl <mathias.dahl@gmail.com>
 Bugs:
 Vcs-Type: http
@@ -14,6 +14,7 @@ Vcs-User:
 Vcs-Password:
 Homepage:
 Wiki: http://www.emacswiki.org/emacs/HideRegion
+Commentary:
 Description: hide or show regions like using kill-ring
  The function `hide-region-hide' hides the region. You can hide many
  different regions and they will be "marked" by two configurable
