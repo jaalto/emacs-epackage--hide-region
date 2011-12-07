@@ -1,3 +1,3 @@
 (autoload 'hide-region-hide                     "hide-region" "" t)
 (autoload 'hide-region-unhide                   "hide-region" "" t)
-(provide 'hide-region-xinstall)
+(provide 'hide-region-epkg-xinstall)

@@ -5,7 +5,9 @@ Depends: emacs (>= 21)
 Status: unmaintained
 Compat:
 Maintainer: Jari Aalto <jari.aalto@cante.net>
-Email: Mathias Dahl <mathias.dahl@gmail.com>
+Bugs:
+Upstream: Mathias Dahl <mathias.dahl@gmail.com>
+Upstream-Bugs:
 Bugs:
 Vcs-Type: http
 Vcs-Url: http://www.emacswiki.org/emacs/download/hide-region.el
@@ -15,7 +17,7 @@ Vcs-Password:
 Homepage:
 Wiki: http://www.emacswiki.org/emacs/HideRegion
 Commentary: hide-region.el
-Description: hide or show regions like using kill-ring
+Description: hide or show regions in kill-ring like fashion
  The function `hide-region-hide' hides the region. You can hide many
  different regions and they will be "marked" by two configurable
  strings (so that you know where the hidden text is).
